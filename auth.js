@@ -15,7 +15,7 @@ router.post('/signup', async (req, res) => {
   res.json({ message: 'User created' });
 });
 
-// Login
+// Login Priyanka Gadhi Nahi Hai
 router.post('/login', async (req, res) => {
   const { username, password } = req.body;
   const user = await User.findOne({ username });
